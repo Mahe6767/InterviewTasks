@@ -1,0 +1,41 @@
+
+{box-sizing: border-box}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+
+.tablink {
+  background-color: #f1f1f1;
+  color: black;
+  float: left;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 33%;
+  font-weight:bold;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+.Fetchdata_btn{
+	margin-top:100px;
+	margin-left:600px;
+	width:100px;
+}
+.table_trad{
+	margin-top:100px;
+}
